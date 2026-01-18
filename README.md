@@ -1,101 +1,143 @@
-# 📊 Data Collection & Fetching Pipeline
+# 🚀 Starting with Machine Learning
 
-This repository contains a Jupyter Notebook **`Data Collection.ipynb`** that demonstrates multiple methods of **data collection** commonly used in data science and analytics workflows.
+This repository documents my **step-by-step journey of learning Machine Learning from scratch**.
+I am learning concepts one by one and pushing my progress here to maintain consistency, revision, and public accountability.
 
-The notebook focuses on fetching structured and unstructured data from different sources and converting it into a usable format for analysis.
-
----
-
-## 📌 Features Covered
-
-The notebook explains and demonstrates the following data collection techniques:
-
-### 1️⃣ Database Data Fetching (MySQL)
-
-* Connecting Python with **MySQL databases**
-* Fetching data using SQL queries
-* Loading database tables into **Pandas DataFrames**
-* Useful for real-world enterprise and analytics applications
-
-### 2️⃣ API Data Fetching
-
-* Collecting data from **REST APIs**
-* Handling JSON responses
-* Converting API data into structured tabular format
-* Widely used in modern data-driven applications
-
-### 3️⃣ Web Scraping
-
-* Extracting data directly from **HTML web pages**
-* Parsing and cleaning scraped data
-* Useful when APIs or databases are not available
+The goal of this repository is **learning by doing** — understanding concepts, implementing them in code, and improving gradually.
 
 ---
 
-## 🛠️ Technologies & Libraries Used
+## 📌 About This Repository
 
-* **Python 3**
-* **Pandas** – Data manipulation and analysis
-* **MySQL Connector / PyMySQL** – Database connectivity
-* **SQLAlchemy** – Database ORM and connection management
-* **Requests** – API calls
-* **BeautifulSoup** – Web scraping
+* 🔰 Beginner-friendly Machine Learning learning path
+* 📚 Concepts learned sequentially (no random jumps)
+* 🧪 Hands-on practice using **Python & Jupyter Notebooks**
+* 📝 Notes, explanations, and experiments included
+* 📈 Will be updated regularly as I learn new topics
+
+This repository is **not a final project**, but a **learning log**.
 
 ---
 
-## 📦 Installation Requirements
+## 🧠 What I Am Learning
 
-Before running the notebook, install the required libraries:
+I will be covering Machine Learning in the following order:
 
-```bash
-pip install pandas
-pip install mysql-connector-python
-pip install sqlalchemy
-pip install pymysql
-pip install requests
-pip install beautifulsoup4
+### 1️⃣ Foundations
+
+* Python for Machine Learning
+* NumPy
+* Pandas
+* Matplotlib & Seaborn
+* Basic Statistics
+* Linear Algebra (basics)
+
+### 2️⃣ Data Handling
+
+* Data Collection
+* Data Cleaning
+* Handling Missing Values
+* Exploratory Data Analysis (EDA)
+
+  * Univariate Analysis
+  * Multivariate Analysis
+* Feature Engineering
+
+### 3️⃣ Machine Learning Algorithms
+
+* Linear Regression
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Decision Trees
+* Random Forest
+* Support Vector Machine (SVM)
+* Naive Bayes
+
+### 4️⃣ Model Evaluation & Improvement
+
+* Train-Test Split
+* Cross Validation
+* Bias-Variance Tradeoff
+* Performance Metrics
+* Hyperparameter Tuning
+
+### 5️⃣ Advanced Topics (Later)
+
+* Ensemble Learning
+* Dimensionality Reduction
+* Basics of Deep Learning
+* Real-world Mini Projects
+
+---
+
+## 📂 Repository Structure (Will Grow Over Time)
+
+```
+Starting_with_Machine_Learning/
+│
+├── Data Collection/
+├── EDA/
+├── Feature Engineering/
+├── Models/
+├── Evaluation/
+├── Notes/
+└── README.md
 ```
 
----
-
-## ▶️ How to Run the Notebook
-
-1. Clone the repository or download the notebook
-2. Open **Jupyter Notebook / Jupyter Lab**
-3. Open `Data Collection.ipynb`
-4. Run cells step-by-step to understand each data collection method
+> 📌 Folder structure may evolve as my understanding improves.
 
 ---
 
-## 🎯 Learning Outcomes
+## 🛠️ Tools & Technologies Used
 
-After completing this notebook, you will be able to:
+* **Language:** Python 🐍
+* **Environment:** Jupyter Notebook
+* **Libraries:**
 
-* Fetch data from databases using Python
-* Collect real-time data using APIs
-* Scrape data from websites
-* Convert raw data into analysis-ready datasets
-* Understand real-world data acquisition pipelines
-
----
-
-## 📚 Use Cases
-
-* Data Science & Machine Learning projects
-* Academic assignments and labs
-* Analytics dashboards
-* Real-world ETL pipelines
+  * NumPy
+  * Pandas
+  * Matplotlib
+  * Seaborn
+  * Scikit-learn (later)
 
 ---
 
-## 👤 Author
+## 🎯 Why This Repository?
 
-**Lakshay**
-B.Tech CSE (AI & ML)
-Guru Jambheshwar University of Science and Technology
+* To build **strong ML fundamentals**
+* To track my learning progress
+* To revise concepts easily
+* To showcase my learning journey publicly
+* To help other beginners who are starting ML
 
 ---
 
-## ⭐ If you find this useful
+## 📖 How to Use This Repository
 
-Give the repository a ⭐ and feel free to fork it for your own projects!
+* Browse topics in order
+* Read markdown explanations inside notebooks
+* Run the code cells and experiment
+* Use it as a **learning reference**, not just code
+
+---
+
+## 📌 Status
+
+🚧 **Work in Progress**
+This repository will be updated regularly as I continue learning Machine Learning.
+
+---
+
+## 🤝 Connect With Me
+
+* **GitHub:** [Lucky-Nahar](https://github.com/Lucky-Nahar)
+* **LinkedIn:** [https://www.linkedin.com/in/lakshay-naharwal](https://www.linkedin.com/in/lakshay-naharwal)
+
+---
+
+⭐ If you find this repository helpful or relatable, feel free to star it!
+
+---
+
+> *“Learning Machine Learning is a marathon, not a sprint.”*
+> — Documenting every step 🚀
